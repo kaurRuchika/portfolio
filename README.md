@@ -42,9 +42,3 @@ Built with modern web technologies, this portfolio is fully responsive and provi
 🛡 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-📬 Contact
-Feel free to reach out via:
-
--   Email:  ruchikasuman@example.com
--   LinkedIn: https://www.linkedin.com/in/ruchika-kaur-walia-a857a4104/
--   GitHub: https://github.com/kaurRuchika
