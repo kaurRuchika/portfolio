@@ -1,6 +1,5 @@
-<a href="https://kaurruchika.github.io/portfolio-2025">View Demo</a>
+<a href="https://kaurruchika.github.io/portfolio">View Demo</a>
 
-📌 Description
 Welcome to my personal portfolio! This web application highlights my professional skills, projects, and background. The app includes sections such as About Me, Skills, Projects, and Contact, making it easy for visitors to learn more about my work.
 
 Built with modern web technologies, this portfolio is fully responsive and provides an interactive and smooth user experience across devices.
@@ -14,30 +13,30 @@ Built with modern web technologies, this portfolio is fully responsive and provi
   
 
 🚀 Technologies Used
-# Frontend:
+**FrontEnd:**
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - React 
 - Bootstrap
 
-# Other Tools:
+**Other Tools:**
 - Git & GitHub
 
 🔧 Installation
-# Clone the repository:
-- git clone https://github.com/your-username/portfolio-app.git
+**Clone the repository:**
+- git clone https://github.com/kaurRuchika/portfolio.git
   
-# Navigate into the project directory:
+**Navigate into the project directory:**
 - cd portfolio
 
-# Install dependencies:
+**Install dependencies:**
 - npm install
   
-# Run the development server:
+**Run the development server:**
 - npm start
 
-# Visit the app in your browser:
+**Visit the app in your browser:**
 - Open http://localhost:3000 (or specified port) to view the portfolio.
   
 🛡 License
