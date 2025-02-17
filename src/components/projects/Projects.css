@@ -1,0 +1,38 @@
+.projects-intro {
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-width: 750px;
+}
+
+.projects-article {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    .projects-article {
+        align-self: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projects-article {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .projects-intro {
+        margin-bottom: 40px;
+    }
+}
+.project {
+        color: black;
+        margin-bottom: 20px
+}

@@ -1,0 +1,6 @@
+<svg width="25" height="25" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon fill="#DD0031" points="125,10 240,60 215,190 125,240 35,190 10,60"/>
+  <polygon fill="#C3002F" points="125,10 125,240 215,190 240,60"/>
+  <path fill="#FFFFFF" d="M125 45L65 180H90L100 150H150L160 180H185L125 45ZM140 130H110L125 90L140 130Z"/>
+  <text x="90" y="210" font-family="Arial" font-size="30" fill="white">15</text>
+</svg>
