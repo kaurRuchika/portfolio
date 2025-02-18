@@ -173,5 +173,6 @@ input[type="submit"] {
     }
 }
 .contact-main{
-    color: black
+    color: black;
+    margin-bottom: 20px
 }

@@ -19,6 +19,11 @@ function Navigation() {
     const navContent = useRef(null);    
     const [isHome, setIsHome] = useState(pathName === "/portfolio" || pathName === "/portfolio/");
     
+        // Update isHome when pathName changes
+        useEffect(() => {
+            setIsHome(pathName === "/portfolio" || pathName === "/portfolio/");
+        }, [pathName]);
+        
     const handleResize = () => {
         if (window.innerWidth >= 992 && navContent.current.classList.contains('show')) {
             navContent.current.classList.remove('show');
@@ -61,20 +66,20 @@ function Navigation() {
 
     return (
         <>
-            <header>                
-                {!isHome ? <Logo className="nav-logo" /> : null}                
-                <nav className="navbar">
-                    <button className="navbar-toggler" 
-                            type="button" 
-                            data-toggle="collapse"
-                            data-target="#navbar-content"
-                            aria-controls="navbar-content"
-                            aria-expanded="false"
-                            ref={toggleContent}>
-                        <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
-                        <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
-                        <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
-                    </button>
+                <header>                
+                    {!isHome ? <Logo className="nav-logo" /> : null}                
+                    <nav className="navbar">
+                        <button className="navbar-toggler" 
+                                type="button" 
+                                data-toggle="collapse"
+                                data-target="#navbar-content"
+                                aria-controls="navbar-content"
+                                aria-expanded="false"
+                                ref={toggleContent}>
+                            <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
+                            <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
+                            <span className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'toggler-icon toggler-icon-home' : 'toggler-icon' }></span>
+                        </button>
 
                     <div className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'navbar-collapse navbar-collapse-home' : 'navbar-collapse' } ref={navContent} id="navbar-content">
                         <ul className={ pathName === "/portfolio" || pathName === "/portfolio/" ? 'navbar-nav navbar-nav-home' : 'navbar-nav' }>

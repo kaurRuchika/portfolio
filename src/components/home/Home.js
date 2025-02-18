@@ -7,8 +7,6 @@ import './Home.css';
 function Home() {
   useEffect(() => {
     let typed;
-
-    if (window.innerWidth > 768) {
       typed = new Typed("#typed", {
         strings: ["Developer", "Designer", "Tea Lover"],
         typeSpeed: 120, // Even slower typing speed
@@ -17,7 +15,6 @@ function Home() {
         startDelay: 500, // Small delay before starting
         loop: true,
       });
-    }
 
     return () => {
       if (typed) {
